@@ -1,0 +1,54 @@
+.web-container {
+  display: flex;
+  justify-content: center;
+}
+.app-store-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+}
+.app-store-heading {
+  font-family: 'Bree Serif';
+  font-size: 35px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-left: 20px;
+}
+.tabs-container {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.app-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  width: 90%;
+  margin-left: 30px;
+}
+.search-input {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: black;
+  border-width: 0px;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1px #7b8794 solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 25px;
+}
